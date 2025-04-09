@@ -4,16 +4,17 @@
 Create a general infrastructure for running new LMs/inference servers against a set of general benchmarks
 
 ### Question Types
-- Instruction Following
-- Math
-- Code
+- Instruction Following with Ground Truth
+- Instruction Following no Ground Truth
+- Math (with ground truth)
+- Code (ground truth final result)
 - Chat / Multiturn
 
 ### Single Question Evaluation Types
 - LLM as a Judge/Battles: choosing the best out of multiple responses
 - LLM Ranking: Rank the responses from a list of responses
 - Math Verification: keyword search for truth then llm verification if not found
-- Code: Environment for executing the code
+- Code: Environment for executing the code --> verifying outputs against ground truth
 - BART Scores compared with ground truth
 - BERT Scores compared with ground truth
 
@@ -22,3 +23,8 @@ Accuracy:
 - % correct
 - Summed rankings (lower score is better)
 - number of battles won
+
+
+## Project Plan
+- 4/9
+- Instruction
