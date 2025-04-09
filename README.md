@@ -10,6 +10,10 @@ Create a general infrastructure for running new LMs/inference servers against a 
 - Code (ground truth final result)
 - Chat / Multiturn
 
+### Answer Extraction
+- Keyword Search
+- LLM Extraction
+
 ### Single Question Evaluation Types
 - LLM as a Judge/Battles: choosing the best out of multiple responses
 - LLM Ranking: Rank the responses from a list of responses
@@ -26,5 +30,9 @@ Accuracy:
 
 
 ## Project Plan
-- 4/9
-- Instruction
+### 4/9
+Goal:
+- Instruction Following with Ground Truth
+- Instruciton Following with no Ground Truth
+- Math with Ground Truth
+
