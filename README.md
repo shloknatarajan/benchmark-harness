@@ -16,6 +16,7 @@ There is a popular harness already for running evals, but you can't override MAT
 ### Answer Extraction
 - Keyword Search
 - LLM Extraction
+- Raw output
 
 ### Single Question Evaluation Types
 - LLM as a Judge/Battles: choosing the best out of multiple responses
