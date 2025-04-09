@@ -3,6 +3,9 @@
 ## Goal
 Create a general infrastructure for running new LMs/inference servers against a set of general benchmarks
 
+## Considerations
+There is a harness already for running evals, but you can't override MATH answer checking then: https://github.com/EleutherAI/lm-evaluation-harness
+
 ### Question Types
 - Instruction Following with Ground Truth
 - Instruction Following no Ground Truth
