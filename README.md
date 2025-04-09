@@ -4,7 +4,7 @@
 Create a general infrastructure for running new LMs/inference servers against a set of general benchmarks
 
 ## Considerations
-There is a harness already for running evals, but you can't override MATH answer checking then: https://github.com/EleutherAI/lm-evaluation-harness
+There is a popular harness already for running evals, but you can't override MATH answer checking then: https://github.com/EleutherAI/lm-evaluation-harness. I also think of this as an easy way to create your own benchmarks, potentially. All you need is a dataset, and then you can just select from a series of evaluation methods that the popular benchmarks already use
 
 ### Question Types
 - Instruction Following with Ground Truth
